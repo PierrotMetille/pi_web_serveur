@@ -19,14 +19,15 @@
 		switch ($action)
 		{
 			case 'home':
-			home(false);
-			break
+				home();
+			break;
 			
 			default:
-				home(true);
+				home();
+			break;
 		}
 	}
 	else
 	{
-		home(false);	
+		lost();	
 	}

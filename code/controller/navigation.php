@@ -10,17 +10,16 @@
 /**
  * @return void
  */
-function home($homeOrLost)
-{
-    if($homeOrLost==true)
+	function home()
 	{
-		require "view/lost.php";
-    }
-    else
-    {
-		require "view/home.php";
-    }
-}	 
+		require "view/home.php";   
+	}
+	
+	function lost()
+	{
+		require "view/lost.php"
+	}
+	 
 	 
 	 
 	 

@@ -5,11 +5,11 @@
  * @author  Create by Pierrot Métille
  * @version 22.02.2023
  */
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Cart</title>
+<title>$title</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Sublime project">
@@ -65,6 +65,9 @@
 				</div>
 			</div>
 		</div>
+	</header>
+	
+	<?=$content?> 
 
 	<!-- Footer -->
 	
