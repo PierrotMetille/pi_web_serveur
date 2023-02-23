@@ -1,16 +1,32 @@
 <?php 
 
-	/**
-	 * @file    index.php
-	 * @brief   This is the redirection file of the website
-	 * @author  Create by Pierrot Métille
-	 * @version 22.02.2023
-	 */
+/**
+ * @file    index.php
+ * @brief   This is the redirection file of the website
+ * @author  Create by Pierrot Métille
+ * @version 22.02.2023
+*/
 	 
-	 require 'controller/navigation.php'
+	require 'controller/navigation.php'
 	 
-	 session_start();
+	session_start();
+	$title = "index";
 	 
-		home(false);
-	 
-	 
+	if (isset($_GET['action']))
+	{
+		
+		$action=$_GET['action'];
+		switch ($action)
+		{
+			case 'home':
+			home(false);
+			break
+			
+			default:
+				home(true);
+		}
+	}
+	else
+	{
+		home(false);	
+	}

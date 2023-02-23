@@ -7,11 +7,10 @@
  */
 
 ob_start();
-$title = "Home";
+$title = "home";
 ?>
 <h1> test </h1>
 <a href="gabarit.php">this is a gabarit</a>
 <?php
 $content = ob_get_clean();
-
->
+require "gabarit.php";
