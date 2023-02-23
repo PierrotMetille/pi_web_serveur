@@ -15,7 +15,8 @@
 	if (isset($_GET['action']))
 	{
 		
-		$action=$_GET['action'];
+		//$action=$_GET['action'];
+		$action = home;
 		switch ($action)
 		{
 			case 'home':
