@@ -11,6 +11,6 @@
 	 
 	 session_start();
 	 
+		home(false);
 	 
 	 
-?>

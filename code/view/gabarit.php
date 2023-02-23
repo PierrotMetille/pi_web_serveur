@@ -1,3 +1,11 @@
+<?php
+/**
+ * @file    gabarit.php
+ * @brief   The header and the footer on the web site
+ * @author  Create by Pierrot Métille
+ * @version 22.02.2023
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
