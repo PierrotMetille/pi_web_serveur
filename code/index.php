@@ -20,15 +20,15 @@
 		switch ($action)
 		{
 			case 'home':
-				home();
+				home($_POST);
 			break;
 			
 			default:
-				home();
+				home($_POST);
 			break;
 		}
 	}
 	else
 	{
-		lost();	
+		lost($_POST);	
 	}

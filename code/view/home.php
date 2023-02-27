@@ -8,9 +8,9 @@
 
 ob_start();
 $title = "home";
-?>
-<h1> test </h1>
-<a href="gabarit.php">this is a gabarit</a>
+include 'gabarit.php';
+
+
 <?php
 $content = ob_get_clean();
 require "gabarit.php";
