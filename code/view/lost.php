@@ -10,9 +10,10 @@ $title = "lost";
 ?>
 <html>
 	<body>
-		<h1>Vous êtes perdu ...</h1>
+		<h1>You're lost ...</h1>
 	</body>
 </html>
 <?php
 $content = ob_get_clean();
 require "view/gabarit.php";
+?>

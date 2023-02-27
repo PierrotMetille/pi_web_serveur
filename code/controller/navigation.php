@@ -19,6 +19,8 @@
 	{
 		require "view/lost.php"
 	}
+
+?>
 	 
 	 
 	 
