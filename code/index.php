@@ -5,14 +5,13 @@
  * @author  Create by Pierrot Métille
  * @version 22.02.2023
 */
-	require 'controller/navigation.php';	 
+		 
 	session_start();
+	require 'controller/navigation.php';
 	$title = "index";
 	if (isset($_GET['action']))
 	{
-		
-		//$action=$_GET['action'];
-		$action = 'home';
+		$action=$_GET['action'];
 		switch ($action)
 		{
 			case 'home':
@@ -26,7 +25,7 @@
 	}
 	else
 	{
-		lost();	
+		home(); //must be lost when i found how to launch home by default  
 	}
 
 ?>

@@ -5,8 +5,10 @@
  * @author  Create by Pierrot Métille
  * @version 23.02.2023
 */
+
 ob_start();
 $title = "lost";
+include 'gabarit.php';
 ?>
 <html>
 	<body>
@@ -15,5 +17,5 @@ $title = "lost";
 </html>
 <?php
 $content = ob_get_clean();
-require "view/gabarit.php";
+require "gabarit.php";
 ?>

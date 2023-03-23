@@ -4,6 +4,7 @@
  * @brief   The header and the footer on the web site
  * @author  Create by Pierrot Métille
  * @version 22.02.2023
+ * @note 
  */
 ?>
 <!DOCTYPE html>
@@ -15,8 +16,8 @@
 			<meta name="description" content="Sublime project">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-			<link href="content/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-			<link rel="stylesheet" type="text/css" href="content/styles/cart.css">
+			<link href="view/content/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+			<link rel="stylesheet" type="text/css" href="view/content/styles/cart.css">
 		</head>
 	<body>
 
@@ -30,11 +31,11 @@
 					<div class="row">
 						<div class="col">
 							<div class="header_content d-flex flex-row align-items-center justify-content-start">
-								<div class="logo"><a href="#">Sublime.</a></div>
+								<div class="logo"><a href="index.php?action=home">Sublime.</a></div>
 								<nav class="main_nav">
 									<ul>
 										<li class="hassubs active">
-											<a href="index.html">Home</a>
+											<a href="index.php">Home</a>
 											<ul>
 												<li><a href="categories.html">Categories</a></li>
 												<li><a href="product.html">Product</a></li>
@@ -67,18 +68,18 @@
 			</div>
 		</header>
 		
-		<?=$content?> 
+		<?=$content?>
 
 		<!-- Footer -->
 		
 		<div class="footer_overlay"></div>
 		<footer class="footer">
-			<div class="footer_background" style="background-image:url(content/images/footer.jpg)"></div>
+			<div class="footer_background" style="background-image:url(view/content/images/footer.jpg)"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-							<div class="footer_logo"><a href="#">Sublime.</a></div>
+							<div class="footer_logo"><a href="index.php?action=home">Sublime.</a></div>
 							
 							<div class="footer_social ml-lg-auto">
 								<ul>
@@ -95,16 +96,16 @@
 		</footer>
 	</div>
 
-	<script src="content/js/jquery-3.2.1.min.js"></script>
-	<script src="content/styles/bootstrap4/popper.js"></script>
-	<script src="content/styles/bootstrap4/bootstrap.min.js"></script>
-	<script src="content/plugins/greensock/TweenMax.min.js"></script>
-	<script src="content/plugins/greensock/TimelineMax.min.js"></script>
-	<script src="content/plugins/scrollmagic/ScrollMagic.min.js"></script>
-	<script src="content/plugins/greensock/animation.gsap.min.js"></script>
-	<script src="content/plugins/greensock/ScrollToPlugin.min.js"></script>
-	<script src="content/plugins/easing/easing.js"></script>
-	<script src="content/plugins/parallax-js-master/parallax.min.js"></script>
-	<script src="content/js/cart.js"></script>
+	<script src="view/content/js/jquery-3.2.1.min.js"></script>
+	<script src="view/content/styles/bootstrap4/popper.js"></script>
+	<script src="view/content/styles/bootstrap4/bootstrap.min.js"></script>
+	<script src="view/content/plugins/greensock/TweenMax.min.js"></script>
+	<script src="view/content/plugins/greensock/TimelineMax.min.js"></script>
+	<script src="view/content/plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="view/content/plugins/greensock/animation.gsap.min.js"></script>
+	<script src="view/content/plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="view/content/plugins/easing/easing.js"></script>
+	<script src="view/content/plugins/parallax-js-master/parallax.min.js"></script>
+	<script src="view/content/js/cart.js"></script>
 	</body>
 </html>

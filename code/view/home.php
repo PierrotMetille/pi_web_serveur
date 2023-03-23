@@ -10,8 +10,11 @@ ob_start();
 $title = "home";
 include 'gabarit.php';
 ?>
-<h1>this is a home</h1>
-
+<html>
+	<body>
+		<h1>This is a home</h1>
+	</body>
+</html>
 <?php
 $content = ob_get_clean();
 require "gabarit.php";
