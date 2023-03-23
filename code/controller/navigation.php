@@ -17,7 +17,7 @@
 	
 	function lost()
 	{
-		require "view/lost.php"
+		require "view/lost.php";
 	}
 
 ?>
