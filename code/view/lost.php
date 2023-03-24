@@ -8,7 +8,6 @@
 
 ob_start();
 $title = "lost";
-include 'gabarit.php';
 ?>
 <html>
 	<body>

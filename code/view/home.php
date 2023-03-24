@@ -8,11 +8,14 @@
 
 ob_start();
 $title = "home";
-include 'gabarit.php';
 ?>
 <html>
 	<body>
-		<h1>This is a home</h1>
+		<div class="home">
+			<div class="container">
+				<span>Welcome to Pierrot Website</span>
+			</div>
+			</div>
 	</body>
 </html>
 <?php
