@@ -3,7 +3,7 @@
  * @file    gabarit.php
  * @brief   The header and the footer on the web site
  * @author  Create by Pierrot Métille
- * @version 22.02.2023
+ * @version 24.03.2023
  * @note 
  */
 ?>
@@ -12,12 +12,10 @@
 		<head>
 		<?=$title?> 
 			<meta charset="utf-8">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<meta name="description" content="Sublime project">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-			<link href="view/content/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-			<link rel="stylesheet" type="text/css" href="view/content/styles/cart.css">
+			<meta name="gabarit" content="Pierrot Website">
+			<link rel="stylesheet" href="view/content/styles/mainStyles.css">
+			<link rel="stylesheet" href="view/content/styles/bootstrap5/css/bootstrap.css">
+			<script src="view/content/styles/bootstrap5/js/bootstrap.js"></script>
 		</head>
 	<body>
 
@@ -26,86 +24,77 @@
 		<!-- Header -->
 
 		<header class="header">
-			<div class="header_container">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="header_content d-flex flex-row align-items-center justify-content-start">
-								<div class="logo"><a href="index.php?action=home">Sublime.</a></div>
-								<nav class="main_nav">
-									<ul>
-										<li class="hassubs active">
-											<a href="index.php">Home</a>
-											<ul>
-												<li><a href="categories.html">Categories</a></li>
-												<li><a href="product.html">Product</a></li>
-												<li><a href="cart.html">Cart</a></li>
-												<li><a href="checkout.html">Check out</a></li>
-												<li><a href="contact.html">Contact</a></li>
-											</ul>
-										</li>
-										<li class="hassubs">
-											<a href="categories.html">Categories</a>
-											<ul>
-												<li><a href="categories.html">Category</a></li>
-												<li><a href="categories.html">Category</a></li>
-												<li><a href="categories.html">Category</a></li>
-												<li><a href="categories.html">Category</a></li>
-												<li><a href="categories.html">Category</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Accessories</a></li>
-										<li><a href="#">Offers</a></li>
-										<li><a href="contact.html">Contact</a></li>
-									</ul>
-								</nav>								</div>
-									<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<h1>This is a header</h1>
 		</header>
 		
 		<?=$content?>
 
 		<!-- Footer -->
-		
-		<div class="footer_overlay"></div>
+	
 		<footer class="footer">
-			<div class="footer_background" style="background-image:url(view/content/images/footer.jpg)"></div>
+
+			<div class="b-example-divider"></div>
 			<div class="container">
+			<footer class="py-5">
 				<div class="row">
-					<div class="col">
-						<div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-							<div class="footer_logo"><a href="index.php?action=home">Sublime.</a></div>
-							
-							<div class="footer_social ml-lg-auto">
-								<ul>
-									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
+				<div class="col-6 col-md-2 mb-3">
+					<h5>Section</h5>
+					<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+					</ul>
 				</div>
-			</div>
-		</footer>
+
+				<div class="col-6 col-md-2 mb-3">
+					<h5>Section</h5>
+					<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+					</ul>
+				</div>
+
+				<div class="col-6 col-md-2 mb-3">
+					<h5>Section</h5>
+					<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-5 offset-md-1 mb-3">
+					<form>
+					<h5>Subscribe to our newsletter</h5>
+					<p>Monthly digest of what's new and exciting from us.</p>
+					<div class="d-flex flex-column flex-sm-row w-100 gap-2">
+						<label for="newsletter1" class="visually-hidden">Email address</label>
+						<input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+						<button class="btn btn-primary" type="button">Subscribe</button>
+					</div>
+					</form>
+				</div>
+				</div>
+
+				<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+				<p>&copy; 2022 Company, Inc. All rights reserved.</p>
+				<ul class="list-unstyled d-flex">
+					<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+					<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+					<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+				</ul>
+				</div>
+			</footer>
+		</div>
+	
 	</div>
 
-	<script src="view/content/js/jquery-3.2.1.min.js"></script>
-	<script src="view/content/styles/bootstrap4/popper.js"></script>
-	<script src="view/content/styles/bootstrap4/bootstrap.min.js"></script>
-	<script src="view/content/plugins/greensock/TweenMax.min.js"></script>
-	<script src="view/content/plugins/greensock/TimelineMax.min.js"></script>
-	<script src="view/content/plugins/scrollmagic/ScrollMagic.min.js"></script>
-	<script src="view/content/plugins/greensock/animation.gsap.min.js"></script>
-	<script src="view/content/plugins/greensock/ScrollToPlugin.min.js"></script>
-	<script src="view/content/plugins/easing/easing.js"></script>
-	<script src="view/content/plugins/parallax-js-master/parallax.min.js"></script>
-	<script src="view/content/js/cart.js"></script>
 	</body>
 </html>
