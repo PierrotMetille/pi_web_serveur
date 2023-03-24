@@ -28,7 +28,17 @@
 /*********************************
 2. Body and some general stuff
 *********************************/
+.littleAndItalic 
+{
+    font-size: 12px;
+    font-style: italic;
+}
 
+.littleBr
+{
+    display: block;
+   margin: -7px;
+}
 
 /*********************************
 3. Header

@@ -25,7 +25,7 @@
 		<div class="container">
 			<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
 				<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-					<span class="fs-4">Simple header</span>
+					<span class="fs-4">Pierrot Website<br class="littleBr"><span class="littleAndItalic">No, you'r not dreaming</span></span>
 				</a>
 
 				<ul class="nav nav-pills">
@@ -35,6 +35,7 @@
 					<li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">About</a></li>
 				</ul>
+				
 			</header>
   		</div>
 		<div class="b-example-divider"></div>
@@ -96,7 +97,7 @@
 				</div>
 
 				<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-				<p>&copy; 2022 Company, Inc. All rights reserved.</p>
+				<p>&copy; 2023 Métille, Inc. All rights reserved <span class="littleAndItalic">(Joking i'dont care)</sapn>.</p>
 				<ul class="list-unstyled d-flex">
 					<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
 					<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
