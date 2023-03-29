@@ -13,7 +13,7 @@ $title = "home";
 	<body>
 		<div class="home">
 			<div class="container">
-				<span>Welcome to Pierrot Website</span>
+				<span>Welcome to Pierrot Website !</span>
 			</div>
 			</div>
 	</body>

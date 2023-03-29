@@ -21,26 +21,51 @@
 	<div class="super_container">
 
 		<!-- Header -->
-		
-		<div class="container">
-			<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-				<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-					<span class="fs-4">Pierrot Website<br class="littleBr"><span class="littleAndItalic">No, you'r not dreaming</span></span>
-				</a>
+		<div class = "header">
+			<div class="container">
+				<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+					<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+						<span class="fs-4">Pierrot Website<br class="littleBr"><span class="littleAndItalic">No, you'r not dreaming</span></span>
+					</a>
 
-				<ul class="nav nav-pills">
-					<li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">About</a></li>
-				</ul>
-				
-			</header>
-  		</div>
-		<div class="b-example-divider"></div>
+					<ul class="nav nav-pills">
+						<li class="nav-item"><a href="index.php?action=home" class="nav-link active" aria-current="page">Home</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+					</ul>
+					
+				</header>
+			</div>
+			<div class="b-example-divider"></div>
+		</div>
 		
-		<?=$content?>
+		<div class="content">
+			<?=$content?>
+		</div>
+
+		<!--News-->
+		<div class="news">
+			<div class="container">				
+				<div class="list-group overflow-auto shadow">
+					<li id="item1">Item 1</li>
+					<li id="item2">Item 2</li>
+					<li id="item3">Item 3</li>
+					<li id="item4">Item 4</li>
+					<li id="item5">Item 5</li>
+					<li id="item6">Item 6</li>
+					<li id="item7">Item 7</li>
+					<li id="item8">Item 8</li>
+					<li id="item9">Item 9</li>
+					<li id="item10">Item 10</li>
+					<li id="item11">Item 11</li>
+					<li id="item12">Item 12</li>
+					<li id="item13">Item 13</li>
+					<li id="item14">Item 14</li>
+					<li id="item15">Item 15</li>
+				</div>
+		</div>
 
 		<!-- Footer -->
 	
