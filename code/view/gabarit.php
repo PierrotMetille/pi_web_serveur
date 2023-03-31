@@ -1,7 +1,7 @@
 <?php 
 /**
  * @file    gabarit.php
- * @brief   The header and the footer on the web site
+ * @brief   Every shit thats stay on the web site in every page are localised and setup here
  * @author  Create by Pierrot Métille
  * @version 24.03.2023
  * @note 
@@ -110,12 +110,12 @@
 
 					<div class="col-md-5 offset-md-1 mb-3">
 						<form>
-							<h5>Subscribe to our newsletter</h5>
-							<p>Monthly digest of what's new and exciting from us.</p>
+							<h5>Wanna tell me somethink ?</h5>
+							<p>Just put it here and i will know it</p>
 							<div class="d-flex flex-column flex-sm-row w-100 gap-2">
-								<label for="newsletter1" class="visually-hidden">Email address</label>
-								<input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-								<button class="btn btn-primary" type="button">Subscribe</button>
+								<label for="newsletter1" class="visually-hidden">message</label>
+								<input id="newsletter1" type="text" class="form-control" placeholder="This is a wonderful website">
+								<button class="btn btn-primary" type="button">push</button>
 							</div>
 						</form>
 					</div>
