@@ -12,6 +12,7 @@
 		<head> 
 			<meta charset="utf-8">
 			<meta name="<?=$title?>" content="This is a gabarit">
+			<link rel="icon" type="image/x-icon" href="/view/content/images/barrel.png"> <!--This is a temporary favicon :)-->
 			<link rel="stylesheet" href="view/content/styles/mainStyles.css">
 			<link rel="stylesheet" href="view/content/styles/bootstrap5/css/bootstrap.css">
 			<script src="https://kit.fontawesome.com/efb247adf9.js" crossorigin="anonymous"></script>
