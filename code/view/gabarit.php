@@ -14,6 +14,7 @@
 			<meta name="<?=$title?>" content="This is a gabarit">
 			<link rel="stylesheet" href="view/content/styles/mainStyles.css">
 			<link rel="stylesheet" href="view/content/styles/bootstrap5/css/bootstrap.css">
+			<script src="https://kit.fontawesome.com/efb247adf9.js" crossorigin="anonymous"></script>
 			<script src="view/content/styles/bootstrap5/js/bootstrap.js"></script>
 		</head>
 	<body>
@@ -122,9 +123,13 @@
 					<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
 						<p>&copy; 2023 Métille, Inc. All rights reserved <span class="littleAndItalic">(Joking i'dont care)</sapn>.</p>
 						<ul class="list-unstyled d-flex">
-							<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-							<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-							<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+						
+							<li class="ms-3"><a class="fa-brands fa-github link-dark" href="https://github.com/PierrotMetille"><svg class="bi" width="24" height="24"></svg></a></li>
+							<li class="ms-3"><a class=" fa-brands fa-discord link-dark" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+							<li class="ms-3"><a class="fa-brands fa-instagram link-dark" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+							<li class="ms-3"><a class="fa-brands fa-steam link-dark" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+							<li class="ms-3"><a class="fa-brands fa-spotify link-dark" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+							
 						</ul>
 					</div>
 				</div>
